@@ -1,4 +1,5 @@
 import React from "react";
+import forecastImg from "../assets/image.png"
 
 function Forecasting({ forecast, setIndex }) {
   console.log("here is forecast", forecast);
@@ -24,7 +25,7 @@ function Forecasting({ forecast, setIndex }) {
           </p>
 
           <img
-            src="src/assets/image.webp"
+            src={forecastImg}
             alt="Weather icon"
             className="mx-auto w-20 h-20 object-contain mb-4"
           />
